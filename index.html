@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport"
+            content="width=device-width">
+
+      <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+
+      <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Cute+Font"
+            rel="stylesheet">
+
+      <link rel="stylesheet"
+            href="assets/css/style.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+      <title>GifTastic</title>
+</head>
+
+<body id="allTheThings">
+
+      <div class="jumbotron"
+           id="header">
+            <h1>Get Your Science On!</h1>
+            <h3>I'm not a scientist but...</h3>
+            <h4>In the name of SCIENCE! Click the buttons to display some sweet gifs showing the beauty...and sometimes
+                  horror...of SCIENCE!
+                  <br>Not impressed with my science obsessions?? Feel free to search for your own obsessions and click
+                  for more action!</h4>
+            </div>
+                  
+                  <form class="form-inline"
+                  id="scienceSearch">
+                  <div class="form-group">
+                        <label for="userEntry">Search Your Science Obsessions Here : </label>
+                        <input type="text"
+                        id="userEntry">
+                  </div>
+                  <input id="addSearchTerm"
+                  type="submit"
+                  value="submit">
+            </form>
+
+      <div class="row">
+            <div class="container">
+                  <div class="btn-group inline">
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Science">Science!</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Nebula">Nebula</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Neurons">Neurons</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Absolute Zero">Absolute Zero</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Antimatter">Antimatter</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Asteroid Belt">Asteroid Belt</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Bacteria">Bacteria</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Nikola Tesla">Nikola Tesla</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Einstein">Einstein</button>
+                        <button class="btn btn-primary"
+                                id="science"
+                                data-search="Nikola Tesla">Nikola
+                              Tesla</button>
+
+                        <div id="buttons"></div>
+                  </div>
+            </div>
+      </div>
+
+      <div class="row">
+            <div class="container">
+                  <span>
+                        <div id="gifRepository"></div>
+                  </span>
+            </div>
+      </div>
+
+
+      <script type="text/javascript"
+              src="assets/javascript/app.js"> </script>
+</body>
+
+</html>
