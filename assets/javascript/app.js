@@ -1,4 +1,4 @@
-window.onload = function () {
+$(document).ready(function () {
 
     var topics = [];
 
@@ -37,7 +37,7 @@ window.onload = function () {
                 scienceImage.attr("data-animate", defaultAnimatedSrc);
                 scienceDiv.append(p);
                 scienceDiv.append(scienceImage);
-                $("gifRepository").prepend(scienceDiv);
+                $("#gifRepository").prepend(scienceDiv);
             }
         });
 
@@ -62,7 +62,7 @@ window.onload = function () {
             bOn.attr("id", "science");
             bOn.attr("data-search", topics[i]);
             bOn.text(topics[i]);
-            $("#buttons").append(bOn);
+            $(".btn-group").append(bOn);
         }
     }
 
@@ -86,4 +86,4 @@ window.onload = function () {
         }
     }
 
-};
+});

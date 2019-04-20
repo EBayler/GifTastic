@@ -1,3 +1,10 @@
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
 body {
     background-image: url("../images/bg5.jpg");
     background-size: cover;
@@ -75,4 +82,5 @@ label {
 padding: 2px;
 width: 88%;
 }
+
 
