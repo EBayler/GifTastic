@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    
     var topics = [];
 
 
@@ -56,13 +56,13 @@ $(document).ready(function () {
 
     function displayButtons() {
 
-        $("#buttons").empty();
+        $("#newButtons").empty();
         for (var i = 0; i < topics.length; i++) {
             var bOn = $('<button class="btn btn primary">');
             bOn.attr("id", "science");
             bOn.attr("data-search", topics[i]);
             bOn.text(topics[i]);
-            $(".btn-group").append(bOn);
+            $("#newButtons").append(bOn);
         }
     }
 

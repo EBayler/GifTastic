@@ -7,7 +7,8 @@
 }
 body {
     background-image: url("../images/bg5.jpg");
-    background-size: cover;
+    background-size: 1550px 900px;
+    background-repeat: repeat-y;
 }
 
 #allTheThings {
@@ -66,6 +67,7 @@ label {
 #science:hover {
     background-color: rgb(167, 35, 68);
     color: bisque;
+    border-color: bisque;
 }
 
 #scienceSearch {
@@ -83,4 +85,13 @@ padding: 2px;
 width: 88%;
 }
 
+p {
+    color: bisque;
+}
 
+iframe {
+    width:0;
+    height:0;
+    border:0;
+    border:none;
+}
