@@ -95,3 +95,31 @@ iframe {
     border:0;
     border:none;
 }
+
+#addSearchTerm {
+    margin: 6px;
+    background-color: bisque;
+    color: black;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 18px;
+    border-color: black;
+}
+
+#addSearchTerm:hover {
+    background-color: rgb(167, 35, 68);
+    color: bisque;
+    border-color: bisque;
+}
+
+#userEntry {
+    background-color: bisque;
+}
+
+/* @media only screen and (max-width: 1200px) {
+    #addSearchTerm {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        display: block;
+    }
+} */
